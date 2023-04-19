@@ -1,0 +1,97 @@
+header,
+body {
+    background-color: #abaaa5;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+.nav-link,
+#carousel-exemplo {
+    text-align: center;
+}
+
+.carousel-inner{
+    margin-bottom: 40px;
+}
+.carousel-item img {
+    width: 90%;
+    height: 563px;
+    border-radius: 25px;
+}
+
+#iphone-12 {
+    margin-bottom: 350px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+}
+
+.container-1 {
+        border-top: 2px solid #343434;
+        padding: 15px;
+}
+
+#iphone-14 {
+    margin-bottom: 180px;
+    margin-left: 600px;
+}
+
+#iphone-13 {
+    margin-bottom: 180px;
+    margin-right: 450px;
+}
+
+.ip {
+    margin-bottom: 30px;
+}
+
+.price1 {
+    margin-top: 40px;
+}
+
+.price,
+.price1 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px){
+    .carousel-item img {
+        width: 100%;
+        height: 300px;
+    }
+    #iphone-12 {
+        margin-bottom: 130px;
+    }
+    
+    #iphone-14 {
+        margin-bottom: 45px;
+        margin-left: 180px;
+    }
+    
+    #iphone-13 {
+        margin-bottom: 60px;
+        margin-right: 450px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .carousel-item img {
+        width: 100%;
+    }
+    #iphone-14 {
+        margin-bottom: 180px;
+        margin-left: 300px;
+    }    
+}
